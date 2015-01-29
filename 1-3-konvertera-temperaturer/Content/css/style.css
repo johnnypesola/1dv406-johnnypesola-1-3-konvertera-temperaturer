@@ -1,0 +1,84 @@
+﻿body {
+    background: #f6f6f6;
+    color: #666666;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+input, textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    background: #EEEEEE;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+input[type=text] {
+    background: #EEEEEE;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: right;
+}
+
+.error-text {
+    color: #AA0000;
+}
+
+.error-message {
+    display: inline-block;
+    color: #AA0000;
+    margin: 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    width: 600px;
+}
+
+.success-message {
+    display: block;
+    color: #00AA00;
+    margin: 15px 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    width: 600px;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+#ReceiptContainer {
+    background: #FFFFFF;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    width: 180px;
+    padding: 10px;
+    margin: 10px;
+
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.3);
+}
+
+    #ReceiptContainer .header-text {
+        font-size: 11px;
+        position: relative;
+        bottom: 17px;
+    }
+
+    #ReceiptContainer .info-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #ReceiptContainer table {
+        width: 180px;
+    }
+
+        #ReceiptContainer table td {
+            text-align: left;
+        } 

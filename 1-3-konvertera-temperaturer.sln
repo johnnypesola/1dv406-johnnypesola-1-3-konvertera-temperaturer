@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-3-konvertera-temperaturer", "1-3-konvertera-temperaturer\1-3-konvertera-temperaturer.csproj", "{BF28E9A1-8554-42FA-8A37-0F35B800B78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF28E9A1-8554-42FA-8A37-0F35B800B78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF28E9A1-8554-42FA-8A37-0F35B800B78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF28E9A1-8554-42FA-8A37-0F35B800B78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF28E9A1-8554-42FA-8A37-0F35B800B78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
