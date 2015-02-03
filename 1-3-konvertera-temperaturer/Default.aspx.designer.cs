@@ -49,22 +49,22 @@ namespace _1_3_konvertera_temperaturer {
         protected global::System.Web.UI.WebControls.TextBox StartTempTextbox;
         
         /// <summary>
-        /// CompareValidator1 control.
+        /// StartTempTypeValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.WebControls.CompareValidator StartTempTypeValidator;
         
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// StartTempRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator StartTempRequired;
         
         /// <summary>
         /// EndTempLabel control.
@@ -85,22 +85,31 @@ namespace _1_3_konvertera_temperaturer {
         protected global::System.Web.UI.WebControls.TextBox EndTempTextbox;
         
         /// <summary>
-        /// CompareValidator2 control.
+        /// EndTempTypeValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
+        protected global::System.Web.UI.WebControls.CompareValidator EndTempTypeValidator;
         
         /// <summary>
-        /// RequiredFieldValidator2 control.
+        /// EndTempValueValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.CompareValidator EndTempValueValidator;
+        
+        /// <summary>
+        /// EndTempRequired control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator EndTempRequired;
         
         /// <summary>
         /// TempStepLabel control.
@@ -121,67 +130,49 @@ namespace _1_3_konvertera_temperaturer {
         protected global::System.Web.UI.WebControls.TextBox TempStepTextbox;
         
         /// <summary>
-        /// CompareValidator3 control.
+        /// TempStepTypeValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator3;
+        protected global::System.Web.UI.WebControls.CompareValidator TempStepTypeValidator;
         
         /// <summary>
-        /// RangeValidator1 control.
+        /// TempStepRangeValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        protected global::System.Web.UI.WebControls.RangeValidator TempStepRangeValidator;
         
         /// <summary>
-        /// RequiredFieldValidator3 control.
+        /// TempStepRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator TempStepRequired;
         
         /// <summary>
-        /// CtoFConversionRadioButton control.
+        /// ConversionRadioButtonList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton CtoFConversionRadioButton;
+        protected global::System.Web.UI.WebControls.RadioButtonList ConversionRadioButtonList;
         
         /// <summary>
-        /// CtoFConversionLabel control.
+        /// ConversionRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CtoFConversionLabel;
-        
-        /// <summary>
-        /// FtoCConversionRadioButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton FtoCConversionRadioButton;
-        
-        /// <summary>
-        /// FtoCConversionLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FtoCConversionLabel;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ConversionRequired;
         
         /// <summary>
         /// SubmitButton control.
@@ -191,5 +182,14 @@ namespace _1_3_konvertera_temperaturer {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button SubmitButton;
+        
+        /// <summary>
+        /// OutputTable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Table OutputTable;
     }
 }

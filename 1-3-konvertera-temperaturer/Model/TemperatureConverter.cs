@@ -9,7 +9,7 @@ namespace _1_3_konvertera_temperaturer.Model
     {
         public static int  CelciusToFahrenheit(int degreesC)
         {
-            return (int)Math.Round(degreesC * 1.8 + 32);
+            return (int) Math.Round(degreesC * 1.8 + 32);
         }
 
         public static int FahrenheitToCelcius(int degreesF)

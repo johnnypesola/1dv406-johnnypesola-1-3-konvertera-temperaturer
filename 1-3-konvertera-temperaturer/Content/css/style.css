@@ -14,7 +14,12 @@ input[type=submit] {
     background: #EEEEEE;
     padding: 5px 10px;
     margin: 10px;
+    cursor: pointer;
 }
+
+    input[type=submit]:hover {
+        background: #DDDDDD;
+    }
 
 input[type=text] {
     background: #EEEEEE;
@@ -81,4 +86,32 @@ input[type=text] {
 
         #ReceiptContainer table td {
             text-align: left;
-        } 
+        }
+
+    div#input {
+        float: left;
+    }
+
+    div#output {
+        float: left;
+        margin: 20px;
+    }
+        #output table {
+            border: 1px solid #CCCCCC;
+            border-spacing: 0;
+            width: 200px;
+        }
+
+        #output table th {
+            background: #666666;
+            color: #FFFFFF;
+            padding: 3px;
+        }
+
+        #output table td {
+            text-align: center;
+        }
+
+        #output table tr.odd {
+            background: #FFFFFF;
+        }
